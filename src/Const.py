@@ -1,0 +1,15 @@
+args_data = '../data/nlp/ptb.'
+git remote add origin git@github.com:MaximAntonovich/rnn-mxnet-playground.gitargs_model = 'rnn_relu'
+args_emsize = 100
+args_nhid = 100
+args_nlayers = 2
+args_lr = 1.0
+args_clip = 0.2
+args_epochs = 1
+args_batch_size = 32
+args_bptt = 5
+args_dropout = 0.2
+args_tied = True
+args_cuda = 'store_true'
+args_log_interval = 500
+args_save = 'model.param'
